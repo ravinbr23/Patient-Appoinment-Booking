@@ -1,0 +1,114 @@
+/* App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #3b5998;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.Form p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+  border-color: #3b5998;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4c70ba;
+}
+
+table.tabble {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table.tabble th,
+table.tabble td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+}
+
+table.tabble th {
+  background-color: #c4c2c2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table.tabble tr:hover {
+  background-color: #f9f9f996;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #eb1400;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4a39;
+}
+
+button + button {
+  margin-left: 10px;
+}
